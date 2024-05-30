@@ -1,0 +1,42 @@
+*{
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: burlywood;
+}
+
+.digitalclock{
+  width: 500px;
+  background-color: brown;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+
+}
+
+h1{
+  color:rgb(93, 139, 177) ;
+  font-weight: 600;
+  font-size: 3em;
+}
+
+.time{
+  margin: 20px 0;
+  font-size: 4rem;
+  font-weight: 700;
+  color:whitesmoke
+}
+
+.date{
+  color: grey;
+  font-size: 20px;
+}
